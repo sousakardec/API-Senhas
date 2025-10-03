@@ -9,7 +9,8 @@ const sequelize = new Sequelize(
   "root", // usuario
   "123456", // senha
   {
-    host: "localhost", // endereço banco
+    host: "192.168.18.77", // endereço banco
+    port: "3307",
     dialect: "mysql", // qual sgbd
   }
 );

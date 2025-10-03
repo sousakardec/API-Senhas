@@ -33,7 +33,7 @@ const Guiche = require("./models/Guiche");
 
 // Rotas
 app.get("/", function (req, res) {
-  res.send("Home");
+  res.send("Home is . LP");
 });
 
 // ROTAS ATENDENTES
@@ -325,6 +325,6 @@ app.get("/fila/consultasenha/:guiche/:atendente", function (req, res) {
 
 //---------------------------------------------------------------------------------------
 
-app.listen(8081, function () {
-  console.log("server run ... port 8081");
+app.listen(3000, "0.0.0.0", function () {
+  console.log("server run ... port 3000");
 });
